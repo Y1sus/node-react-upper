@@ -1,0 +1,24 @@
+{
+  "name": "upper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "Error",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "mocha": "^6.1.4",
+    "morgan": "^1.9.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
