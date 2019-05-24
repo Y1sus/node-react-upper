@@ -17,7 +17,7 @@ class App extends Component {
     if (textoMinus) {
       // console.log(textoMinus);
       e.target.elements.textMinus.value = "";
-      axios.get(`http://192.168.0.3:3030/api/textUpper/${textoMinus}`)
+      axios.get(`http://172.16.100.78:3030/api/textUpper/${textoMinus}`)
       .then((res) => {
         const upper = res.data.upper;
         console.log(upper);
